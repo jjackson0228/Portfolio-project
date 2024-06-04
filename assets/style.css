@@ -17,8 +17,8 @@ header {
     background-color: #5f9ea0;
 }
 
-
-.text-right {
+/* changed to nav for class below from text-right */
+.nav {
     text-align: right;
 
 }
