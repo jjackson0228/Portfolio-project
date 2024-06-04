@@ -1,24 +1,36 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
-/* need to change all body stuff */
+/* added border box to * */
+
 body {
     position: relative;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Gill Sans', 'Courier New', Courier, monospace;
     font-size: 20px;
     color: black;
 }
 
-/* header background seems close need to figure out how to get nav text into header */
+/* added new font family  */
+
 header {
-    height: 60px;
     background-color: #5f9ea0;
-}
-
-/* changed to nav for class below from text-right */
-.nav {
-    text-align: right;
+    display: flex;
+    align-items: center;
+    padding: 20px;
 
 }
+
+/* gave head a display and flex then align items center with 20px padding */
+
+.nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    padding-top: 10px;
+    justify-content: center;
+}
+
+/* gave nav ul a display of flex and list syle none and a gap of 20px and padding of top 10px and justify content of center*/
