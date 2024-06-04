@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* need to change all body stuff */
+body {
+    position: relative;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    color: black;
+}
+
+/* header background seems close need to figure out how to get nav text into header */
+header {
+    height: 60px;
+    background-color: #5f9ea0;
+}
+
+
+.text-right {
+    text-align: right;
+
+}
