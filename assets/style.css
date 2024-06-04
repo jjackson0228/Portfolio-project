@@ -19,18 +19,33 @@ header {
     background-color: #5f9ea0;
     display: flex;
     align-items: center;
-    padding: 20px;
-
+    padding: 40px;
 }
 
 /* gave head a display and flex then align items center with 20px padding */
+
+nav {
+    margin-left: auto;
+    font-size: larger;
+}
+
+/* added margin left auto and font size larger */
 
 .nav ul {
     list-style-type: none;
     display: flex;
     gap: 20px;
-    padding-top: 10px;
-    justify-content: center;
+    padding: 10px 20px;
+
 }
 
-/* gave nav ul a display of flex and list syle none and a gap of 20px and padding of top 10px and justify content of center*/
+/* added padding and gap display flex to nav ul */
+
+.nav ul li a {
+    color: black;
+    text-decoration: none;
+    padding: 10px 15px;
+    text-align: right;
+}
+
+/* gave padding of rop and right 10px and 15px added text align right */
