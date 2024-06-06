@@ -71,4 +71,16 @@ nav {
 /* created new section for subtitle add box for section  */
 /* fixed by added justify content flex end reducing bottom padding aligning items and making content relative */
 
-h3 {}
+h3 {
+    background-size: contain;
+    justify-content: center;
+    padding: 20px 20px 20px 20px;
+    margin-bottom: 40px;
+    position: relative;
+
+}
+
+/* got the h3 aligned to the left with a gap in-between  */
+p {
+    text-align: right;
+}
