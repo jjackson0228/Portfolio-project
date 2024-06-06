@@ -16,13 +16,19 @@ body {
 /* added new font family  */
 
 header {
-    background-color: #5f9ea0;
+    box-sizing: border-box;
+    background-color: black;
     display: flex;
     align-items: center;
-    padding: 40px;
+
 }
 
 /* gave head a display and flex then align items center with 20px padding */
+
+h1 {
+    background-color: #5f9ea0;
+    padding: 20px;
+}
 
 nav {
     margin-left: auto;
@@ -42,10 +48,19 @@ nav {
 /* added padding and gap display flex to nav ul */
 
 .nav ul li a {
-    color: black;
+    color: #5f9ea0;
     text-decoration: none;
-    padding: 10px 15px;
+    padding: 10px 10px;
     text-align: right;
 }
 
 /* gave padding of rop and right 10px and 15px added text align right */
+
+.background-box {
+    background-color: teal;
+    background-size: cover;
+    justify-content: last baseline;
+    padding: 100px;
+}
+
+/* created new section for subtitle add box for section  */
