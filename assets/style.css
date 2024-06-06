@@ -59,8 +59,14 @@ nav {
 .background-box {
     background-color: teal;
     background-size: cover;
-    justify-content: last baseline;
+    justify-content: flex-end;
     padding: 100px;
+    padding-bottom: 10px;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+
 }
 
 /* created new section for subtitle add box for section  */
+/* fixed by added justify content flex end reducing bottom padding aligning items and making content relative */
