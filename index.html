@@ -1,18 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
 <!-- added head tag and put the meta title and link to css style sheet -->
+<!-- changed title of page to my name  -->
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lernantino Profile Page</title>
+    <title>James Jackson Profile Page</title>
     <link rel="stylesheet" href="assets/style.css" />
 </head>
 
 <body>
     <!-- added header gave header class of "header" included nav element gave nav class and made list in nav element -->
+    <!-- changed name in h1 to my name  -->
     <header class="header">
-        <h1>Lernantino</h1>
+        <h1>James Jackson</h1>
         <nav class="nav">
             <ul>
                 <li><a href="#about">About Me</a></li>
@@ -21,37 +23,49 @@
                 <li><a href="#resume">Resume</a></li>
             </ul>
         </nav>
-        <!-- added anchor tags and links for the nav -->
     </header>
 
+
+    <!-- added a section with a h2 that needs to be changed to a subtitle but first need to fix box in css -->
     <section class="background-box">
         <h2>Cool subtitle here</h2>
 
     </section>
-    <!-- added a section with a h2 that needs to be changed to a subtitle but first need to fix box in css -->
 
-    <article class="about-me">
+    <!-- added id to link to the about me article on my page -->
+    <article class="about-me" id="about">
         <h3>About Me</h3>
-        <p>Hi my name is James Jackson. I live in North Carolina. </p>
+        <section class="p-about">
+            <p>Hi my name is James Jackson. I live in North Carolina.I was a service tech in HVAC, but I was'nt
+                satisfied
+                with the way my career was going, so I decided to go to school for full-stack development.</p>
+        </section>
+    </article>
+    <!-- added link to the work article on my pg -->
+    <article class="work" id="work">
+        <section id="title_work">
+            <h3>Work</h3>
+        </section>
+        <section class="project">
+            <p>Project 1 </p>
+            <p>Project 2 </p>
+            <p>Project 3 </p>
+            <p>Project 4 </p>
+        </section>
     </article>
 
-    <article class="work">
-        <h3>Work</h3>
-        <p>I was a service tech in HVAC, but I was'nt satisfied
-            with the way my career was going, so I decided to go to school for full-stack development.</p>
-    </article>
-
-    <article class="contact-me">
+    <!-- added link to the contact me article on my page -->
+    <article class="contact-me" id="contactme">
         <h3>Contact Me</h3>
         <p>You can contact me by email: jjackson0228@gmail.com</p>
     </article>
 
-    <article class="resume">
+    <!-- added link to the resume article on my page -->
+    <article class="resume" id="resume">
         <h3>Resume</h3>
         <p>Future resume goes here.</p>
     </article>
-    <!-- made 4 articles with the class name same as what the article content will be need to style css all h3 to align on left side of pg with a line -->
-    <!-- added paragraphs to each article  -->
+
 </body>
 
 </html>

@@ -33,6 +33,7 @@ h1 {
 nav {
     margin-left: auto;
     font-size: larger;
+
 }
 
 /* added margin left auto and font size larger */
@@ -49,7 +50,7 @@ nav {
 
 .nav ul li a {
     color: #5f9ea0;
-    text-decoration: none;
+    text-decoration: underline;
     padding: 10px 10px;
     text-align: right;
 }
@@ -75,12 +76,36 @@ h3 {
     background-size: contain;
     justify-content: center;
     padding: 20px 20px 20px 20px;
+    margin-top: 20px;
     margin-bottom: 40px;
     position: relative;
+    /* border: 1px solid black; */
+    height: 50px;
+}
+
+/* removed border all around every h3 */
+/* got the h3 aligned to the left with a gap in-between  */
+
+article {
+    display: flex;
 
 }
 
-/* got the h3 aligned to the left with a gap in-between  */
 p {
-    text-align: right;
+    border: 1px solid black;
+}
+
+/* made new section called project with the 4 paragraphs in it for work */
+.project {
+    display: flex;
+    flex: 70%;
+    width: 100%;
+    background-color: aquamarine;
+}
+
+/* added id title work to identify that section  */
+#title_work {
+    flex: 30%;
+    border-right: 2px solid red;
+    margin: 0 10px;
 }
