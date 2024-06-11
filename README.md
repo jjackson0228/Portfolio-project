@@ -6,8 +6,8 @@ This project was built from the ground up using HTML, and CSS. The project is me
 
 
 ### Links
-https://github.com/jjackson0228/Portfolio-project
-https://jjackson0228.github.io/Portfolio-project
+- https://github.com/jjackson0228/Portfolio-project
+- https://jjackson0228.github.io/Portfolio-project
 #### Tools Used
  - Visual Studio Code
  - Wave Chrome Extension
