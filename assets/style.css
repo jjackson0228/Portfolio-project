@@ -8,9 +8,10 @@
 
 body {
     position: relative;
-    font-family: 'Gill Sans', 'Courier New', Courier, monospace;
+    font-family: 'arial', 'Courier New', Courier, monospace;
     font-size: 20px;
     color: black;
+    background-color: antiquewhite;
 }
 
 /* added new font family  */
@@ -28,6 +29,10 @@ header {
 h1 {
     background-color: #5f9ea0;
     padding: 20px;
+}
+
+h3 {
+    font-size: xx-large;
 }
 
 nav {
@@ -76,6 +81,10 @@ article {
     display: flex;
 }
 
+article {
+    margin-right: 5px;
+}
+
 .left-part {
     flex: 1 1 20%;
     justify-content: center;
@@ -85,5 +94,27 @@ article {
 .right-part {
     flex: 1 1 80%;
     justify-content: center;
+    text-align: justify;
+}
 
+#work_right {
+    height: 300px;
+}
+
+.project-container {
+    display: flex;
+}
+
+.project {
+    padding: 20px;
+}
+
+.contactme-text {
+    display: flex;
+    align-items: center;
+}
+
+.aboutme-text {
+    display: flex;
+    align-items: center;
 }
