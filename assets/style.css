@@ -88,6 +88,7 @@ article {
 .left-part {
     flex: 1 1 20%;
     justify-content: center;
+    align-items: center;
     padding: 60px;
 }
 
@@ -117,4 +118,22 @@ article {
 .aboutme-text {
     display: flex;
     align-items: center;
+}
+
+.card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.side-title {
+    width: 120px;
+    /* Set a fixed width for the titles */
+    text-align: center;
+    /* Align the text to the right */
+    /* padding-right: 10px; */
+    /* Add some padding to separate the title from the content */
 }
