@@ -12,6 +12,11 @@ body {
     font-size: 20px;
     color: black;
     background-color: antiquewhite;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
 }
 
 /* added new font family  */
@@ -77,7 +82,7 @@ nav {
 h3,
 p,
 article {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     display: flex;
 }
 
@@ -94,8 +99,11 @@ article {
 
 .right-part {
     flex: 1 1 80%;
-    justify-content: center;
+    justify-content: space-evenly;
     text-align: justify;
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-around; */
 }
 
 #work_right {
@@ -103,12 +111,15 @@ article {
 }
 
 .project-container {
+    flex: 1 1 80%;
+    justify-content: space-evenly;
+    text-align: justify;
     display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-around; */
 }
 
-.project {
-    padding: 20px;
-}
+
 
 .contactme-text {
     display: flex;
@@ -127,6 +138,7 @@ article {
     margin: 10px;
     background-color: #f9f9f9;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
 }
 
 .side-title {
@@ -136,4 +148,32 @@ article {
     /* Align the text to the right */
     /* padding-right: 10px; */
     /* Add some padding to separate the title from the content */
+}
+
+.project .card {
+    width: 300px;
+    /* Adjust width as needed */
+    height: 200px;
+    /* Adjust height as needed */
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    /* padding: 20px; */
+    /* margin: 20px; */
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    justify-content: space-evenly;
+
+}
+
+
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex: 1 1 80%;
+    justify-content: space-evenly;
 }
