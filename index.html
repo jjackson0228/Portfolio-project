@@ -1,7 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-<!-- added head tag and put the meta title and link to css style sheet -->
-<!-- changed title of page to my name  -->
 
 <head>
     <meta charset="UTF-8">
@@ -11,8 +9,6 @@
 </head>
 
 <body>
-    <!-- added header gave header class of "header" included nav element gave nav class and made list in nav element -->
-    <!-- changed name in h1 to my name  -->
     <header class="header">
         <h1>James Jackson</h1>
         <nav class="nav">
@@ -25,51 +21,43 @@
         </nav>
     </header>
 
-
-    <!-- added a section with a h2 that needs to be changed to a subtitle but first need to fix box in css -->
     <section class="background-box">
         <h2>James Jackson's Portfolio</h2>
     </section>
 
-    <!-- added id to link to the about me article on my page -->
-    <article class="parent-about card" id="about">
-        <h3 class="left-part side-title card">About Me</h3>
-        <p class="right-part aboutme-text">Hi my name is James Jackson. I live in North Carolina.I was a service tech in
-            HVAC,
-            but I was'nt
-            satisfied
-            with the way my career was going, so I decided to go to school for full-stack development.</p>
-    </article>
-    <!-- added cards to all articles -->
-    <article class="parent-work card" id="work">
-        <h3 class="left-part side-title card" id="work_right">Work</h3>
-
-        <section class="right-part">
-            <div class="container">
-                <p class="project card"><a href="https://github.com/jjackson0228/Weather-app">Weather Dashboard App</a>
-                </p>
-                <p class=" project card"><a href="https://github.com/jjackson0228/Personal-blog-app">Personal Blog
-                        App</a></p>
-            </div>
-            <div class="container">
-                <p class="project card"><a href="https://github.com/jjackson0228/Rock-Paper-Scissors">Rock Paper
-                        Scissors
-                        App</a></p>
-                <p class="project card"><a href="https://github.com/jjackson0228/Employee-Payroll">Employee
-                        Employee-Payroll</a></p>
-            </div>
-        </section>
+    <article class="section-card" id="about">
+        <h3 class="section-title">About Me</h3>
+        <p class="section-content">
+            Hi, my name is James Jackson. I live in North Carolina. I was a service tech in HVAC, but I wasn’t
+            satisfied with my career, so I decided to pursue full-stack development.
+        </p>
     </article>
 
-    <article class="parent-contactme card" id="contactme">
-        <h3 class="left-part side-title card">Contact me </h3>
-        <p class="right-part contactme-text"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt, iusto
-            mollitia!
-            Architecto omnis ipsam ducimus optio temporibus neque, ex dolorum dolores quis? Tenetur reprehenderit porro
-            unde iste, eaque dolore maxime?</p>
+    <article class="section-card" id="work">
+        <h3 class="section-title">Work</h3>
+        <div class="project-container">
+            <div class="project card"><a href="https://github.com/jjackson0228/Weather-app">Weather Dashboard App</a>
+            </div>
+            <div class="project card"><a href="https://github.com/jjackson0228/Personal-blog-app">Personal Blog App</a>
+            </div>
+            <div class="project card"><a href="https://github.com/jjackson0228/Rock-Paper-Scissors">Rock Paper
+                    Scissors</a></div>
+            <div class="project card"><a href="https://github.com/jjackson0228/Employee-Payroll">Employee Payroll</a>
+            </div>
+        </div>
     </article>
+
+    <article class="section-card" id="contactme">
+        <h3 class="section-title">Contact Me</h3>
+        <p class="section-content">
+            Feel free to reach out via email at james.jackson@example.com. Connect with me on
+            <a href="https://github.com/jjackson0228">GitHub</a> and
+            <a href="https://linkedin.com/in/jamesjackson">LinkedIn</a>.
+        </p>
+    </article>
+
     <footer class="footer">
-
+        <p>&copy; 2024 James Jackson. All Rights Reserved.</p>
     </footer>
 </body>
 
